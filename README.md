@@ -41,7 +41,7 @@ The goal is to reduce average vehicle waiting time and queue length at the inter
 
 ## Data and Code Availability
 All model code and plots setup are available on GitHub:  
-[https://github.com/your-username/Traffic-NSGA2-NetLogo](https://github.com/your-username/Traffic-NSGA2-NetLogo)
+(https://github.com/Lihini-2001/g1.git)
 
 ---
 
