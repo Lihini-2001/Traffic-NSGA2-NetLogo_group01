@@ -1,15 +1,17 @@
 # Traffic NSGA-II Optimization Model
 
 ## Purpose
-This NetLogo model simulates traffic flow at a junction and optimizes traffic light timings using a simplified **NSGA-II (Non-dominated Sorting Genetic Algorithm II)** approach.  
+This NetLogo model simulates traffic flow at a T-junction and optimizes traffic light timings using a simplified **NSGA-II (Non-dominated Sorting Genetic Algorithm II)** approach and partial cellular automata featured vehicle agents.  
 The goal is to reduce average vehicle waiting time and queue length at the intersection.  
 
 ---
 
 ## Model Implementation
 - Written entirely in **NetLogo 6.x**.  
-- Supports multiple lanes with turning and straight movements.  
-- Traffic lights operate in 4 phases and are dynamically optimized by NSGA-II after a fixed number of cycles.  
+- Supports multiple lanes with turning and straight movements.
+- Vehicle agents are given Celllular-Automata like behaviour.
+- A turning logic is implemented as multiple lanes can be opened at once during color light implementation.
+- Traffic lights operate in 4 phases and are dynamically optimized by NSGA-II after a fixed number of traffic light cycles (2).  
 - Vehicles are spawned at lane start locations and follow simple movement and turning logic.  
 
 ---
@@ -29,7 +31,7 @@ The goal is to reduce average vehicle waiting time and queue length at the inter
 ## Plots and Monitors
 - The model includes built-in NetLogo plots to visualize:  
   - **Waiting time over ticks**  
-  - **Queue length per lane over ticks**  
+  - **Vehicle count per lane over ticks**  
 - Monitors can display real-time values of traffic light durations, total vehicles, and other metrics.  
 
 ---
