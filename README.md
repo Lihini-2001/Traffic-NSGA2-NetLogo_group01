@@ -31,7 +31,8 @@ The goal is to reduce average vehicle waiting time and queue length at the inter
 ## Plots and Monitors
 - The model includes built-in NetLogo plots to visualize:  
   - **Waiting time over ticks**  
-  - **Vehicle count per lane over ticks**  
+  - **Vehicle count per lane over ticks**
+  - **Vehicle speed per lane**
 - Monitors can display real-time values of traffic light durations, total vehicles, and other metrics.  
 
 ---
@@ -43,7 +44,7 @@ The goal is to reduce average vehicle waiting time and queue length at the inter
 
 ## Data and Code Availability
 All model code and plots setup are available on GitHub:  
-(https://github.com/Lihini-2001/g1.git)
+(https://github.com/Lihini-2001/group01/blob/main/goup01.nlogo)
 
 ---
 
