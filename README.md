@@ -1,4 +1,4 @@
-# Traffic NSGA-II Optimization Model
+# Adaptive Traffic NSGA-II Optimization Model
 
 ## Purpose
 This NetLogo model simulates traffic flow at a T-junction and optimizes traffic light timings using a simplified **NSGA-II (Non-dominated Sorting Genetic Algorithm II)** approach and partial cellular automata featured vehicle agents.  
